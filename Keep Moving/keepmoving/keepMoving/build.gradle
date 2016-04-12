@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+dependencies {
+    compile files('res')
+    compile files('libs/jinput.jar')
+    compile files('libs/jogg-0.0.7.jar')
+    compile files('libs/jorbis-0.0.15.jar')
+    compile files('libs/lwjgl.jar')
+    compile files('libs/slick.jar')
+}
